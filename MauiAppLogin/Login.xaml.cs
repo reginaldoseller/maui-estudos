@@ -6,6 +6,7 @@ public partial class Login : ContentPage
 	{
 		InitializeComponent();
 	}
+<<<<<<< HEAD
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
@@ -49,4 +50,6 @@ public partial class Login : ContentPage
 			await DisplayAlertAsync("Ops", ex.Message, "Fechar");
 		}
     }
+=======
+>>>>>>> 1008b949541ca07412bba29fba45ba1178268d8f
 }

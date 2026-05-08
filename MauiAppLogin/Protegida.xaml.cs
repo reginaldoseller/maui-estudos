@@ -5,6 +5,7 @@ public partial class Protegida : ContentPage
 	public Protegida()
 	{
 		InitializeComponent();
+<<<<<<< HEAD
 
 		string usuario_logado = null;
 
@@ -25,4 +26,7 @@ public partial class Protegida : ContentPage
 			App.Current.MainPage = new Login();
 		}
     }	
+=======
+	}
+>>>>>>> 1008b949541ca07412bba29fba45ba1178268d8f
 }
